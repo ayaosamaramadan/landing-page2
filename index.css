@@ -1,8 +1,24 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 li {
-  @apply mr-8 w-[86px] h-[27px] leading-[26.63px] font-inter text-graii ;
+  @apply font-inter text-graii 
+  2sm:mr-[8%] 2sm:w-[40px] 2sm:h-[27px] 2sm:leading-[26.63px] 2sm:text-[60%]
+  md:w-[110px] md:text-[70%] md:mr-[20%]
+  lg:w-[110px] lg:text-[100%] lg:mr-[10%] lg:h-[27px] lg:leading-[26.63px]
+  xl:mr-[6%] xl:w-[86px] xl:h-[27px] xl:leading-[26.63px] xl:text-[100%] 
+  2xl:text-[120%] ;
+}
+
+@media (min-width : 320px) {
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
 }
