@@ -14,7 +14,10 @@ module.exports = {
     extend: {
       colors: {
         graii: 'rgba(84, 84, 84, 1)',
-        navbtn:'rgba(31, 31, 31, 1)'
+        navbtn:'rgba(31, 31, 31, 1)',
+        h11: 'rgba(31, 31, 31, 1)',
+        firstP:'rgba(84, 84, 84, 1)',
+
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
