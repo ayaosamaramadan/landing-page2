@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "build:css": "postcss index.css -o output.css",
+    "watch:css": "postcss index.css -o output.css --watch"
+  }
+}
