@@ -620,6 +620,9 @@ video {
 .mt-\[2\%\] {
   margin-top: 2%;
 }
+.ml-\[10\%\] {
+  margin-left: 10%;
+}
 .flex {
   display: flex;
 }
@@ -1588,6 +1591,10 @@ li {
     margin-top: 3%;
   }
 
+  .lg\:ml-\[5\%\] {
+    margin-left: 5%;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -1825,6 +1832,42 @@ li {
 
   .xl\:mt-0 {
     margin-top: 0px;
+  }
+
+  .xl\:ml-\[5\%\] {
+    margin-left: 5%;
+  }
+
+  .xl\:ml-\[15\%\] {
+    margin-left: 15%;
+  }
+
+  .xl\:mt-\[-10\%\] {
+    margin-top: -10%;
+  }
+
+  .xl\:mt-\[-180\%\] {
+    margin-top: -180%;
+  }
+
+  .xl\:mt-\[-175\%\] {
+    margin-top: -175%;
+  }
+
+  .xl\:mt-\[-165\%\] {
+    margin-top: -165%;
+  }
+
+  .xl\:mt-\[-155\%\] {
+    margin-top: -155%;
+  }
+
+  .xl\:mt-\[-125\%\] {
+    margin-top: -125%;
+  }
+
+  .xl\:mt-\[-130\%\] {
+    margin-top: -130%;
   }
 
   .xl\:block {
