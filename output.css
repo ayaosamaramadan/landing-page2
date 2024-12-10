@@ -592,6 +592,12 @@ video {
     font-weight: 600;
   }
 }
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
 .left-5 {
   left: 1.25rem;
 }
@@ -611,11 +617,23 @@ video {
 .mb-6 {
   margin-bottom: 1.5rem;
 }
+.ml-2 {
+  margin-left: 0.5rem;
+}
 .ml-5 {
   margin-left: 1.25rem;
 }
+.ml-6 {
+  margin-left: 1.5rem;
+}
 .ml-7 {
   margin-left: 1.75rem;
+}
+.ml-\[140px\] {
+  margin-left: 140px;
+}
+.ml-\[45\%\] {
+  margin-left: 45%;
 }
 .mr-5 {
   margin-right: 1.25rem;
@@ -635,8 +653,14 @@ video {
 .mt-5 {
   margin-top: 1.25rem;
 }
+.mt-\[-330px\] {
+  margin-top: -330px;
+}
 .mt-\[3\%\] {
   margin-top: 3%;
+}
+.mt-\[310px\] {
+  margin-top: 310px;
 }
 .flex {
   display: flex;
@@ -644,11 +668,20 @@ video {
 .h-\[0px\] {
   height: 0px;
 }
+.h-\[45px\] {
+  height: 45px;
+}
 .w-\[100\%\] {
   width: 100%;
 }
 .w-\[100px\] {
   width: 100px;
+}
+.w-\[440px\] {
+  width: 440px;
+}
+.w-\[45px\] {
+  width: 45px;
 }
 .w-\[90\%\] {
   width: 90%;
@@ -656,8 +689,14 @@ video {
 .w-full {
   width: 100%;
 }
+.flex-1 {
+  flex: 1 1 0%;
+}
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.flex-row {
+  flex-direction: row;
 }
 .flex-col {
   flex-direction: column;
@@ -684,6 +723,17 @@ video {
 .border-opacity-85 {
   --tw-border-opacity: 0.85;
 }
+.bg-graybtn {
+  background-color: rgba(241, 241, 241, 1);
+}
+.bg-slate-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity, 1));
+}
+.bg-slate-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity, 1));
+}
 .p-5 {
   padding: 1.25rem;
 }
@@ -698,6 +748,12 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+.pl-4 {
+  padding-left: 1rem;
+}
+.pt-3 {
+  padding-top: 0.75rem;
 }
 .text-center {
   text-align: center;
@@ -714,20 +770,20 @@ video {
 .text-\[12px\] {
   font-size: 12px;
 }
-.text-\[15px\] {
-  font-size: 15px;
-}
 .text-\[16px\] {
   font-size: 16px;
+}
+.text-\[1rem\] {
+  font-size: 1rem;
 }
 .text-\[20px\] {
   font-size: 20px;
 }
+.text-\[38px\] {
+  font-size: 38px;
+}
 .text-\[45px\] {
   font-size: 45px;
-}
-.text-\[48px\] {
-  font-size: 48px;
 }
 .font-\[500\] {
   font-weight: 500;
@@ -750,14 +806,17 @@ video {
 .leading-\[40px\] {
   line-height: 40px;
 }
-.leading-\[70\.19px\] {
-  line-height: 70.19px;
+.leading-\[50\.19px\] {
+  line-height: 50.19px;
 }
 .leading-\[84\.72px\] {
   line-height: 84.72px;
 }
 .text-graii {
   color: rgba(84, 84, 84, 1);
+}
+.text-secondP {
+  color: rgba(70, 70, 70, 1);
 }
 
 @media (min-width: 1024px){
@@ -1354,6 +1413,10 @@ li {
     line-height: 35px;
   }
 
+  .sm\:leading-\[3rem\] {
+    line-height: 3rem;
+  }
+
   .sm\:leading-\[50px\] {
     line-height: 50px;
   }
@@ -1561,6 +1624,10 @@ li {
     line-height: 2.2694rem;
   }
 
+  .md\:leading-\[3\.5rem\] {
+    line-height: 3.5rem;
+  }
+
   .md\:leading-\[3\.75rem\] {
     line-height: 3.75rem;
   }
@@ -1706,6 +1773,10 @@ li {
 
   .lg\:w-\[350px\] {
     width: 350px;
+  }
+
+  .lg\:w-auto {
+    width: auto;
   }
 
   .lg\:max-w-\[100\%\] {
@@ -1879,6 +1950,10 @@ li {
     display: flex;
   }
 
+  .xl\:h-\[120px\] {
+    height: 120px;
+  }
+
   .xl\:h-\[161px\] {
     height: 161px;
   }
@@ -1893,6 +1968,10 @@ li {
 
   .xl\:h-\[27px\] {
     height: 27px;
+  }
+
+  .xl\:h-\[320px\] {
+    height: 320px;
   }
 
   .xl\:h-\[36px\] {
@@ -1923,12 +2002,20 @@ li {
     width: 30%;
   }
 
+  .xl\:w-\[300px\] {
+    width: 300px;
+  }
+
   .xl\:w-\[400px\] {
     width: 400px;
   }
 
   .xl\:w-\[50\%\] {
     width: 50%;
+  }
+
+  .xl\:w-\[600px\] {
+    width: 600px;
   }
 
   .xl\:w-\[80\%\] {
@@ -1971,6 +2058,10 @@ li {
     font-size: 20px;
   }
 
+  .xl\:text-\[3rem\] {
+    font-size: 3rem;
+  }
+
   .xl\:text-\[85px\] {
     font-size: 85px;
   }
@@ -1993,6 +2084,10 @@ li {
 
   .xl\:leading-\[4\.3875rem\] {
     line-height: 4.3875rem;
+  }
+
+  .xl\:leading-\[4\.5rem\] {
+    line-height: 4.5rem;
   }
 
   .xl\:text-firstP {

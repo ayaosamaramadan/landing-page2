@@ -17,6 +17,8 @@ module.exports = {
         navbtn:'rgba(31, 31, 31, 1)',
         h11: 'rgba(31, 31, 31, 1)',
         firstP:'rgba(84, 84, 84, 1)',
+        secondP:'rgba(70, 70, 70, 1)',
+        graybtn:'rgba(241, 241, 241, 1)'
 
       },
       fontFamily: {
