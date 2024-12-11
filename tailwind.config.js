@@ -18,7 +18,8 @@ module.exports = {
         h11: 'rgba(31, 31, 31, 1)',
         firstP:'rgba(84, 84, 84, 1)',
         secondP:'rgba(70, 70, 70, 1)',
-        graybtn:'rgba(241, 241, 241, 1)'
+        graybtn:'rgba(241, 241, 241, 1)',
+        gray3:'rgba(146, 146, 146, 1)',
 
       },
       fontFamily: {
