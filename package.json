@@ -2,5 +2,8 @@
   "scripts": {
     "build:css": "postcss index.css -o output.css",
     "watch:css": "postcss index.css -o output.css --watch"
+  },
+  "dependencies": {
+    "toastr": "^2.1.4"
   }
 }
