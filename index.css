@@ -230,5 +230,21 @@ li {
     top: 140px;
     z-index: 3;
   }
-
 }
+
+.z3{
+  margin-top: 100%;
+  position: relative;
+  width: 1460px;
+  margin-left: -8%;
+  height: 400px;
+}
+
+.top{
+  position: absolute;
+  width: 146px;
+  margin-top: -650px;
+  height: 100px;
+  margin-left: 10%;
+}
+ 

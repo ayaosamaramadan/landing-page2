@@ -20,7 +20,7 @@ module.exports = {
         secondP:'rgba(70, 70, 70, 1)',
         graybtn:'rgba(241, 241, 241, 1)',
         gray3:'rgba(146, 146, 146, 1)',
-
+        footerr:'rgba(209, 209, 209, 1)',
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
