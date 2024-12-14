@@ -272,3 +272,18 @@ li {
   
 }
 
+@keyframes slideDownFadeIn {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.nav-active {
+  animation: slideDownFadeIn 0.5s ease-out forwards;
+  margin-bottom:5% ;
+}

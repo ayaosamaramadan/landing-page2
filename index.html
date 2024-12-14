@@ -12,22 +12,23 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="flex 2sm:mt-7 2sm:ml-[5%] 2xl:mt-10 2xl:ml-[5%] md:ml-[10%] md:mr-[5%]">
-      <img
-        class="2sm:w-[55px] 2sm:h-[17px] md:w-[80px] md:h-[23px] lg:w-[167px] lg:h-[48px] xl:w-[177px] xl:h-[48px] 2xl:w-[200px] 2xl:h-[48px] 2xl:top-6px"
+    <nav class="flex 2sm:mt-7 2sm:ml-[5%] 2xl:mt-10 2xl:ml-[5%] md:ml-[10%] md:mr-[5%]"> 
+      <i class="fa-solid fa-bars 2sm:opacity-100 sm:opacity-100 opacity-0 md:opacity-0 lg:opacity-0 xl:opacity-0 2xl:opacity-0" onclick="handleMenu()"></i>     
+        <img
+        class="2sm:w-[55px] sm:ml-3 2sm:ml-3 xl:ml-0 lg:ml-0 md:ml-0 2sm:h-[17px] sm:w-[55px] sm:h-[17px] md:w-[80px] md:h-[23px] lg:w-[167px] lg:h-[48px] xl:w-[177px] xl:h-[48px] 2xl:w-[200px] 2xl:h-[48px] 2xl:top-6px"
         src="./imgs/Logo.png"
         alt=""
       />
-      <ul
-        class="flex 2sm:font-bold 2sm:w-[70px] 2sm:h-[27px] 2sm:top-[16px] 2sm:left-[508px] 2sm:mt-[-1%] 2sm:ml-[4%] 2sm:mr-[4%] sm:ml-[8%] md:ml-[5%] md:mt-[0%] md:font-bold md:w-[20%] md:h-[27px] md:top-[16px] lg:font-bold lg:w-[30%] lg:h-[27px] lg:top-[16px] lg:mt-[2%] lg:ml-[10%] xl:font-bold xl:w-[50%] xl:h-[27px] xl:top-[16px] xl:left-[508px] xl:mt-[1.3%] xl:ml-[12%] 2xl:font-bold 2xl:w-[50%] 2xl:h-[27px] 2xl:top-[16px] 2xl:left-[508px] 2xl:mt-[1.3%] 2xl:ml-[15%]"
+      <ul id="menu"
+        class="flex xl:opacity-100 lg:opacity-100 md:opacity-100 sm:opacity-0 2sm:opacity-0 sm:ml-[-2%] sm:mt-[12%] sm:text-[1.2rem] sm:font-bold sm:w-[20%] sm:h-[27px] sm:top-[0px] 2sm:ml-[-10%] 2sm:mt-[12%] 2sm:text-[1.2rem] 2sm:font-bold 2sm:w-[20%] 2sm:h-[27px] 2sm:top-[0px] md:ml-[5%] md:mt-[0%] md:font-bold md:w-[20%] md:h-[27px] md:top-[16px] xl:text-[100%] lg:text-[100%] md:text-[100%] lg:font-bold lg:w-[30%] lg:h-[27px] lg:top-[16px] lg:mt-[2%] lg:ml-[10%] xl:font-bold xl:w-[50%] xl:h-[27px] xl:top-[16px] xl:left-[508px] xl:mt-[1.3%] xl:ml-[12%] 2xl:font-bold 2xl:w-[50%] 2xl:h-[27px] 2xl:top-[16px] 2xl:left-[508px] 2xl:mt-[1.3%] 2xl:ml-[15%]"
       >
-        <li><a href="index.html">Home</a></li>
-        <li><a href="">Services</a></li>
-        <li><a href="">Contact</a></li>
+        <li class="sm:mr-3 2sm:mr-3"><a href="index.html">Home</a></li>
+        <li class="sm:mr-4 2sm:mr-4"><a href="">Services</a></li>
+        <li class="sm:mr-3 2sm:mr-3"><a href="">Contact</a></li>
         <li><a href="">Support</a></li>
       </ul>
       <button
-        class="darkbtn 2sm:ml-[29%] md:ml-[35%] lg:ml-[14%] lg:mt-[1%] xl:ml-0 xl:mr-[5%] xl:mt-[0%]"
+        class="darkbtn 2sm:ml-[33%] sm:ml-[33%] md:ml-[35%] lg:ml-[14%] lg:mt-[1%] xl:ml-0 xl:mr-[5%] xl:mt-[0%]"
       >
         Sign Up
       </button>
@@ -36,7 +37,7 @@
     <main class="container xl:ml-20 lg:ml-16 sm:ml-10 2sm:ml-10">
       <!-- interior design sec -->
       <section>
-        <div class="2xl:flex xl:flex lg:flex md:flex">
+        <div class="2xl:flex xl:flex lg:flex md:flex sm:mt-[-60px] 2sm:mt-[-60px] md:mt-[0px] lg:mt-[0px] xl:mt-[0px]">
           <div>
             <h1
               class="xl:font-inter xl:font-[500] xl:text-[85px] xl:min-w-[120%] xl:h-[161px] xl:text-h11 xl:mt-[3%] xl:leading-[160.96px] lg:font-inter lg:font-[500] lg:text-[55px] lg:max-w-[100%] lg:h-[161px] lg:text-h11 lg:mt-[3%] lg:leading-[160.96px] md:font-inter md:font-[500] md:text-[35px] md:max-w-[100%] md:h-[161px] md:text-h11 md:mt-[3%] md:leading-[160.96px] sm:font-inter sm:font-[500] sm:text-[35px] sm:max-w-[100%] sm:h-[161px] sm:text-h11 sm:mt-[3%] sm:leading-[160.96px] 2sm:font-inter 2sm:font-[500] 2sm:text-[34px] 2sm:max-w-[100%] 2sm:h-[161px] 2sm:text-h11 2sm:mt-[3%] 2sm:leading-[160.96px]"
@@ -258,7 +259,7 @@
                     Start Project
                   </h2>
                   <p
-                    class="font-inter text-graii w-full sm:w-[85%] md:w-[80%] xl:w-[40%]"
+                    class="font-inter text-graii w-full sm:w-[85%] 2sm:w-[80%] md:w-[80%] xl:w-[40%]"
                   >
                     Embark on your design adventure by initiating your project.
                     Share your vision and set the stage for a bespoke design
@@ -279,7 +280,7 @@
                   Craft
                 </h2>
                 <p
-                  class="font-inter text-graii sm:w-[85%] md:w-[80%] xl:w-[40%]"
+                  class="font-inter text-graii sm:w-[85%] 2sm:w-[80%] md:w-[80%] xl:w-[40%]"
                 >
                   Collaborate closely to achieve design excellence refining your
                   vision and crafting brilliance into every aspect of your space
@@ -297,7 +298,7 @@
                   Execute
                 </h2>
                 <p
-                  class="font-inter text-graii sm:w-[85%] md:w-[80%] xl:w-[40%]"
+                  class="font-inter text-graii sm:w-[85%] 2sm:w-[80%] md:w-[80%] xl:w-[40%]"
                 >
                   Witness your vision becoming a reality as we execute the
                   design plan with precision. Celebrate the joy of your newly
@@ -309,7 +310,6 @@
             <div class="xl:w-[400px] xl:h-[200px] lg:w-[400px] lg:h-[200px] md:w-[360px] md:h-[190px] sm:w-[300px] sm:h-[190px] 2sm:w-[250px] 2sm:h-[190px] xl:ml-[-40%] lg:ml-[14%] xl:mt-[18%] lg:mt-[10%] md:mt-[10%] sm:mt-[10%] 2sm:mt-[10%]">
               <img src="./imgs/Image.png" alt="" />
             </div>
-            
           </div>
         </div>
       </section>
@@ -414,20 +414,21 @@
         </div>
         </div>
         <div class="top xl:mt-[-650px] lg:mt-[-700px] xl:w-[146px] xl:h-[100px] lg:w-[146px] lg:h-[100px] md:w-[14px] md:h-[100px] md:mt-[-655px] 2sm:h-[100px] 2sm:mt-[-640px] sm:h-[100px] sm:mt-[-640px]">
-            <h1 class="xl:ml-20 lg:ml-[-50%] text-center font-inter font-[600] lg:text-[2.5rem] xl:text-[2.4rem] w-full 2sm:w-[350px] 2sm:ml-[-20%] 2sm:text-[1.5rem] 2sm:leading-[2.5rem] lg:w-[600px] sm:w-[350px] sm:ml-[-20%] sm:text-[1.5rem] sm:leading-[2.5rem] xl:w-[559px] md:w-[350px] md:ml-[-280%] md:text-[1.5rem] md:leading-[2.5rem] leading-[2rem] lg:leading-[3.5rem] xl:leading-[2.5rem]">
+            <h1 class="xl:ml-20 lg:ml-[-50%] text-center font-inter font-[600] lg:text-[2.5rem] xl:text-[2.4rem] w-full 2sm:w-[320px] 2sm:ml-[-22%] 2sm:text-[1.4rem] 2sm:leading-[2.5rem] lg:w-[600px] sm:w-[350px] sm:ml-[-20%] sm:text-[1.5rem] sm:leading-[2.5rem] xl:w-[559px] md:w-[350px] md:ml-[-280%] md:text-[1.5rem] md:leading-[2.5rem] leading-[2rem] lg:leading-[3.5rem] xl:leading-[2.5rem]">
               Subscribe to Our Newsletter for Design Insights
             </h1>
-            <p class="text-center xl:ml-20 lg:ml-[-50%] mt-10 text-[1rem] md:ml-[-190%] md:text-[1rem] md:w-[350px] md:h-[70px] lg:text-[1.5rem] sm:ml-[-15%] sm:text-[1rem] sm:w-[350px] sm:h-[70px] xl:text-[20px] 2sm:ml-[-15%] 2sm:text-[1rem] 2sm:w-[350px] 2sm:h-[70px] w-full lg:w-[600px] xl:w-[580px] h-auto lg:h-[80px] text-graii mx-auto">
+            <p class="text-center xl:ml-20 lg:ml-[-50%] mt-10 text-[1rem] md:ml-[-190%] md:text-[1rem] md:w-[350px] md:h-[70px] lg:text-[1.5rem] sm:ml-[-15%] sm:text-[1rem] sm:w-[350px] sm:h-[70px] xl:text-[20px] 2sm:ml-[-22%] 2sm:text-[0.9rem] 2sm:w-[320px] 2sm:h-[70px] w-full lg:w-[600px] xl:w-[580px] h-auto lg:h-[80px] text-graii mx-auto">
               Be the first to discover trends, inspirations, and special offers as we bring the world of design directly to your inbox
             </p>
             
-            <div class="xl:ml-20 sm:ml-[-20%] sm:w-[375px] sm:h-[60px] lg:ml-[-50%] mt-6 2sm:ml-[-20%] 2sm:w-[375px] 2sm:h-[60px] xl:w-[639px] lg:w-[639px] md:ml-[-280%] md:w-[375px] md:h-[60px] rounded-[4px] xl:h-[62px] lg:h-[62px] flex justify-center items-center space-x-2 bg-white ">
-              <i class="xl:text-[29px] xl:ml-0 lg:ml-0 sm:ml-3 sm:text-[19px] 2sm:ml-3 2sm:text-[19px] md:ml-3 md:text-[19px] lg:text-[29px]  text-graii fa-regular fa-envelope "></i>
-              <input type="text" placeholder="Enter your email address" class="p-2 border-0 xl:w-[400px] lg:w-[400px] md:w-[180px] sm:w-[180px] 2sm:w-[180px]" />
-              <button class="bg-navbtn border-0 xl:w-[170px] lg:w-[170px] 2sm:h-[40px] 2sm:w-[120px] 2sm:font-[500] xl:h-[50px] sm:h-[40px] sm:w-[120px] sm:font-[500] lg:h-[50px] md:h-[40px] md:w-[120px] md:font-[500] font-inter xl:font-[600] lg:font-[600] text-white">Subscribe</button>
+            <div class="xl:ml-20 sm:ml-[-20%] sm:w-[365px] sm:h-[60px] lg:ml-[-50%] mt-6 2sm:ml-[-17%] 2sm:w-[300px] 2sm:h-[55px] xl:w-[639px] lg:w-[639px] md:ml-[-280%] md:w-[375px] md:h-[60px] rounded-[4px] xl:h-[62px] lg:h-[62px] flex justify-center items-center space-x-2 bg-white ">
+              <i class="xl:text-[29px] xl:ml-0 lg:ml-0 sm:ml-3 sm:text-[19px] 2sm:ml-0 2sm:text-[16px] md:ml-3 md:text-[19px] lg:text-[29px]  text-graii fa-regular fa-envelope "></i>
+              <input type="text" placeholder="Enter your email address" class="p-2 border-0 xl:w-[400px] lg:w-[400px] md:w-[180px] sm:w-[180px] 2sm:w-[150px]" />
+              <button class="bg-navbtn border-0 xl:w-[170px] lg:w-[170px] 2sm:h-[35px] 2sm:w-[100px] 2sm:font-[400] xl:h-[50px] sm:h-[40px] sm:w-[120px] sm:font-[500] lg:h-[50px] md:h-[40px] md:w-[120px] md:font-[500] font-inter xl:font-[600] lg:font-[600] text-white">Subscribe</button>
             </div>
         </div>
       </footer> 
+      <script src="./index.js"></script>
     </main>
   </body>
 </html>
