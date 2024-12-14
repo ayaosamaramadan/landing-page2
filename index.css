@@ -2,9 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-html,body{
+html, body {
   overflow-x: hidden;
-
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 @layer components {
   .darkbtn {
@@ -18,18 +20,6 @@ li {
   lg:w-[110px] lg:text-[100%] lg:mr-[10%] lg:h-[27px] lg:leading-[26.63px]
   xl:mr-[6%] xl:w-[86px] xl:h-[27px] xl:leading-[26.63px] xl:text-[100%] 
   2xl:text-[120%];
-}
-@media (min-width: 320px) {
-  *,
-  *::before,
-  *::after {
-    box-sizing: border-box;
-  }
-  html,
-  body {
-    margin: 0;
-    padding: 0;
-  }
 }
 
 @screen xl{
@@ -245,3 +235,40 @@ li {
   margin-left: 10%;
 }
  
+
+@screen sm {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@screen md {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  .placeholder-text::placeholder {
+    font-size: 1rem;
+  }
+}
+@screen lg {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+}
+@screen xl {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+}
+@screen 2sm {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  
+}
+
