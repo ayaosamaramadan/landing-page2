@@ -2723,10 +2723,6 @@ li {
     margin-left: 1%;
   }
 
-  .lg\:ml-\[1\.5\%\] {
-    margin-left: 1.5%;
-  }
-
   .lg\:ml-\[10\%\] {
     margin-left: 10%;
   }
@@ -2765,6 +2761,10 @@ li {
 
   .lg\:ml-\[5px\] {
     margin-left: 5px;
+  }
+
+  .lg\:ml-\[8\.5\%\] {
+    margin-left: 8.5%;
   }
 
   .lg\:mr-0 {
