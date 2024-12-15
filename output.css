@@ -3146,10 +3146,6 @@ li {
     margin-left: -80px;
   }
 
-  .xl\:ml-\[1\.5\%\] {
-    margin-left: 1.5%;
-  }
-
   .xl\:ml-\[12\%\] {
     margin-left: 12%;
   }
@@ -3176,6 +3172,10 @@ li {
 
   .xl\:ml-\[8\%\] {
     margin-left: 8%;
+  }
+
+  .xl\:ml-\[8\.5\%\] {
+    margin-left: 8.5%;
   }
 
   .xl\:mr-0 {
