@@ -4,7 +4,7 @@
   This project is a responsive landing page template built with HTML, CSS, and JavaScript. It is designed to be easily customizable and adaptable to various projects.
 </p>
 
-## Live
+## Live in vercel app
 <p>
   You can view the live project <a href="https://landing-page2-c8rpa0caq-aya-osamas-projects.vercel.app">here</a>.
 </p>
